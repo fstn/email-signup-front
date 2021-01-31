@@ -1,0 +1,41 @@
+{
+  "dependencies": {
+    "antd": "^4.11.2",
+    "awesome-debounce-promise": "^2.1.0",
+    "axios": "^0.21.1",
+    "create-index": "^2.6.0",
+    "hookrouter": "^1.2.5",
+    "i18next": "^19.8.5",
+    "i18next-http-backend": "^1.1.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-google-recaptcha": "^2.1.0",
+    "react-i18next": "^11.8.5",
+    "styled-components": "^5.2.1",
+    "use-immer": "^0.4.2",
+    "use-mobile-detect-hook": "^1.0.3"
+  },
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@types/i18next": "^13.0.0",
+    "@types/react-i18next": "^8.1.0",
+    "create-ts-index": "^1.13.6",
+    "react-dom": "^17.0.1"
+  },
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/react-typescript@3.1.64"
+    },
+    "componentsDefaultDirectory": "components/{name}",
+    "packageManager": "npm"
+  },
+  "scripts": {
+    "ctiC": "cti ./src/components/",
+    "addC": "bit add src/components/*",
+    "tagC": "bit tag --all",
+    "exportC": "bit export fstn.react-library"
+  }
+}

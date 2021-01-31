@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="008004fa-a838-40c2-a08f-23d07f727a91" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/HowToSolveDuplicateReact" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/LocaleC.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/forgot-email/ForgotCodeForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/forgot-email/ForgotCodePage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/forgot-email/ForgotEmailForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/forgot-email/ForgotEmailPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/login/LoginForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/login/LoginPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/register/RegisterForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/register/RegisterPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/use-safe-translation.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1nnk4eLMkUSoIJcBlds1YZLZEF1" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="compactDirectories" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/hooks" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/.bit/components/compilers/react-typescript/bit.envs/3.1.64/components/.dependencies/compilers/typescript/bit.envs/3.1.49/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/hooks" />
+      <recent name="$PROJECT_DIR$/src/components/forgot-email" />
+      <recent name="$PROJECT_DIR$/src/lib" />
+      <recent name="$PROJECT_DIR$/src/components/common" />
+      <recent name="$PROJECT_DIR$/src/components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/common/form" />
+      <recent name="$PROJECT_DIR$/src/components/common" />
+      <recent name="$PROJECT_DIR$/src/components/common/page" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="008004fa-a838-40c2-a08f-23d07f727a91" name="Default Changelist" comment="" />
+      <created>1612033052770</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612033052770</updated>
+      <workItem from="1612033054333" duration="4701000" />
+      <workItem from="1612039094722" duration="19542000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="628" y="421" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612093358862">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="628" y="421" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1200@0.0.1920.1200" timestamp="1612093358862" />
+    <state width="1899" height="335" key="GridCell.Tab.0.bottom" timestamp="1612090896393">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1899" height="335" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1612090896393" />
+    <state width="1899" height="335" key="GridCell.Tab.0.center" timestamp="1612090896391">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1899" height="335" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1612090896391" />
+    <state width="1899" height="335" key="GridCell.Tab.0.left" timestamp="1612090896390">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1899" height="335" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1612090896390" />
+    <state width="1899" height="335" key="GridCell.Tab.0.right" timestamp="1612090896392">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1899" height="335" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1612090896392" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1612087783271">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.0.1920.1200@0.0.1920.1200" timestamp="1612087783271" />
+    <state x="100" y="128" width="1720" height="972" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1612038271197">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="100" y="128" width="1720" height="972" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1612038271197" />
+    <state x="100" y="128" width="1720" height="972" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1612091129191">
+      <screen x="0" y="25" width="1920" height="1086" />
+    </state>
+    <state x="100" y="128" width="1720" height="972" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.25.1920.1086@0.25.1920.1086" timestamp="1612091129191" />
+    <state x="662" y="377" width="977" height="474" key="find.popup" timestamp="1612096964059">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="662" y="377" width="977" height="474" key="find.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1612096964059" />
+    <state x="625" y="292" key="run.anything.popup" timestamp="1612041688012">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="625" y="292" key="run.anything.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1612041688012" />
+    <state x="625" y="292" width="670" height="676" key="search.everywhere.popup" timestamp="1612087323911">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="625" y="292" width="670" height="676" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1612087323911" />
+  </component>
+</project>
