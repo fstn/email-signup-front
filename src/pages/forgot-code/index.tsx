@@ -1,5 +1,5 @@
 import React from "react"
-import {ForgotCodeForm} from "./ForgotCodeForm";
+import ForgotCodeForm from "../../forms/forgot-code";
 
 function ForgotCodePage(){
     return <><ForgotCodeForm/></>

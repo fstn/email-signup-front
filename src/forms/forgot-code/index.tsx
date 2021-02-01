@@ -2,7 +2,7 @@ import {Button, Descriptions, Form, Input} from "antd";
 import React from "react"
 import ReCAPTCHA from "react-google-recaptcha";
 import {useImmer} from "use-immer";
-import {LocaleButton, LocaleHelp, LocaleLabel, LocaleTitle} from "../../common/LocaleC";
+import {LocaleButton, LocaleHelp, LocaleLabel, LocaleTitle} from "../../locale";
 export function ForgotCodeForm(){
 
     const [state,updateState] = useImmer({captcha:false, loading:false})

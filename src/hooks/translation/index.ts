@@ -3,10 +3,11 @@ import {Namespace, useTranslation, UseTranslationOptions} from "react-i18next";
 import i18next from 'i18next';
 
 
-export const useSafeTranslation = (
+export const Translate = (
   ns?: Namespace,
   options?: UseTranslationOptions,
 ): { t: (key: string) => string } => {
   const {t} = useTranslation(ns, options);
   return {t: (key) => t(key) || ""}
 }
+
