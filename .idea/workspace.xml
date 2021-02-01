@@ -20,36 +20,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="008004fa-a838-40c2-a08f-23d07f727a91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/axios/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/form-layout/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/image-on-side/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/login-image/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/welcome/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/forms/login/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/forms/register-code/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/forms/register-email/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/forms/register/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/user/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/register-code/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/register-email/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/register/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user-context/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/email-image/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/security-image/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/forgot-password-page/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.bitmap" beforeDir="false" afterPath="$PROJECT_DIR$/.bitmap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/LocaleC.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/locale/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/forgot-email/ForgotCodeForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/forms/forgot-code/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/forgot-email/ForgotCodePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/forgot-code/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/forgot-email/ForgotEmailForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/forms/forgot-email/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/forgot-email/ForgotEmailPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/forgot-email/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/forgot-email/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/login/LoginForm.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/login/LoginPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/register/RegisterForm.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/register/RegisterPage.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/use-safe-translation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/translation/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HowToSolveDuplicateReact" beforeDir="false" afterPath="$PROJECT_DIR$/bit dev rules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/axios/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/axios/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/login-image/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/login-image/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/welcome/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/welcome-image/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/forms/forgot-code/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/forms/forgot-email/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/forms/forgot-password-form/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/forms/login/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/forms/login-form/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/forms/register-code/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/forms/register-code-form/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/forms/register-email/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/forms/register-email-form/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/forms/register/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/forms/register-form/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/user/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/user/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/forgot-code/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/forgot-email/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/login/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login-page/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/register-code/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/register-code/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/register-email/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/register-email-page/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/register/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/register-page/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +71,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="TF_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/forms" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -97,11 +93,11 @@
       <recent name="$PROJECT_DIR$/src/common/hooks" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/images" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/locale" />
       <recent name="$PROJECT_DIR$/src/forms/forgot-code" />
       <recent name="$PROJECT_DIR$/src/forms/forgot-email" />
-      <recent name="$PROJECT_DIR$/src/forms/login" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -113,8 +109,16 @@
       <option name="presentableId" value="Default" />
       <updated>1612033052770</updated>
       <workItem from="1612033054333" duration="4701000" />
-      <workItem from="1612039094722" duration="46344000" />
+      <workItem from="1612039094722" duration="49768000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1612151732595</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612151732596</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +135,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="628" y="421" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612137582544">
@@ -157,6 +165,10 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1920.1200@0.0.1920.1200" timestamp="1612087783271" />
+    <state x="560" y="338" key="Vcs.Push.Dialog.v2" timestamp="1612151735245">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="560" y="338" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1612151735245" />
     <state x="100" y="128" width="1720" height="972" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1612038271197">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
@@ -177,9 +189,9 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="625" y="292" key="run.anything.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1612041688012" />
-    <state x="625" y="292" width="670" height="676" key="search.everywhere.popup" timestamp="1612151256549">
+    <state x="625" y="292" width="670" height="676" key="search.everywhere.popup" timestamp="1612179420182">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="625" y="292" width="670" height="676" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1612151256549" />
+    <state x="625" y="292" width="670" height="676" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1612179420182" />
   </component>
 </project>

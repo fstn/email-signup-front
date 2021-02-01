@@ -34,7 +34,7 @@ export function LoginForm() {
         })
         try {
             await login(values.email, values.password, values.remember)
-            setTimeout(() => navigate(path.indexOf("login") === -1 && path.indexOf("welcome") === -1 ? path : `/`), 0)
+            setTimeout(() => navigate(path.indexOf("login") === -1 && path.indexOf("welcome-image") === -1 ? path : `/`), 0)
         } finally {
             updateState(draft => {
                 draft.loading = false
@@ -52,23 +52,23 @@ export function LoginForm() {
             >
                 <Form.Item
                     name="email"
-                    rules={[{required: false, message: t('login.email.error')}]}
+                    rules={[{required: false, message: t('login-form-page.email.error')}]}
                 >
-                    <Input prefix={<UserOutlined className="site-form-item-icon"/>}
+                    <Input size="large" prefix={<UserOutlined className="site-form-item-icon"/>}
                            placeholder={LocalePlaceHolder({tkey: "userName"})}/>
                 </Form.Item>
                 <Form.Item
                     name="password"
-                    rules={[{required: false, message: t('login.password.error')}]}
+                    rules={[{required: false, message: t('login-form-page.password.error')}]}
                 >
-                    <Input
+                    <Input size="large"
                         prefix={<LockOutlined className="site-form-item-icon"/>}
                         type="password"
                         placeholder={LocalePlaceHolder({tkey: "password"})}/>
                 </Form.Item>
                 <Form.Item>
                     <Form.Item name="remember" valuePropName="checked" noStyle>
-                        <Checkbox><LocaleLabel tkey={"remember.me"}/></Checkbox>
+                        <Checkbox ><LocaleLabel tkey={"remember.me"}/></Checkbox>
                     </Form.Item>
 
                     {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
@@ -97,3 +97,5 @@ export function LoginForm() {
         </Style>
     );
 }
+
+export default LoginForm

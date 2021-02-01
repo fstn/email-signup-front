@@ -1,8 +1,8 @@
 import React from "react"
 import styled from "styled-components";
-import {Welcome} from "../../components/welcome";
 import {ImageOnSide} from "../../components/image-on-side";
-import {RegisterCode} from "../../forms/register-code";
+import RegisterCodeForm from "../../forms/register-code-form";
+import SecurityImage from "../../images/security-image";
 
 const Style = styled.div`
  background: #F8F8F8;
@@ -13,10 +13,11 @@ const Style = styled.div`
  display: flex;
  align-items: center;
 `
-export function RegisterCodePage(props:{image?: JSX.Element}){
+
+export function RegisterCodePage(props: { email: string, code?:string, image?: JSX.Element }) {
     return <Style>
-        <ImageOnSide image={props.image || <Welcome/>}>
-            <RegisterCode/>
+        <ImageOnSide image={props.image || <SecurityImage/>}>
+            <RegisterCodeForm email={props.email} code={props.code}/>
         </ImageOnSide>
     </Style>
 }

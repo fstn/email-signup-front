@@ -22,7 +22,7 @@ font-weight: bold;
 `
 
 
-export function RegisterEmail(props: {
+export function RegisterEmailForm(props: {
     code?: string,
     email?: string,
 } = {}) {
@@ -35,7 +35,7 @@ export function RegisterEmail(props: {
                 draft.loading = true
             })
             await axios!.post(`/register`, values)
-            navigate('/login');
+            navigate('/login-form-page');
         } catch (e) {
             throw e
         } finally {
@@ -47,7 +47,7 @@ export function RegisterEmail(props: {
 
     return <FormStyle>
         <Style>
-            <h1><LocaleTitle tkey={"register.email"}/></h1>
+            <h1><LocaleTitle tkey={"register-form-page.email"}/></h1>
             <Form onFinish={onFinish} {...layout}>
                 <Form.Item name={"email"} label={<LocaleLabel tkey={"email"}/>} initialValue={props.email}
                            required={true} rules={[{type: "string"}]}>
@@ -71,3 +71,5 @@ export function RegisterEmail(props: {
         </Style>
     </FormStyle>
 }
+
+export default RegisterEmailForm

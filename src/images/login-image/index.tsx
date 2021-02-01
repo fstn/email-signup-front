@@ -80,3 +80,5 @@ export function LoginImage() {
               transform="translate(-227.576 -76.46149)" fill="#2f2e41"/>
     </svg>)
 }
+
+export default LoginImage

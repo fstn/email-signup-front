@@ -1,8 +1,7 @@
 import React from "react"
 import styled from "styled-components";
-import {LoginImage} from "../../components/login-image";
-import {Welcome} from "../../components/welcome";
-import {LoginForm} from "../../forms/login";
+import LoginForm from "../../forms/login-form";
+import {LoginImage} from "../../images/login-image";
 import {ImageOnSide} from "../../components/image-on-side";
 
 const Style = styled.div`

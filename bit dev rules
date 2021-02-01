@@ -1,2 +1,9 @@
 je retire react ud node module on est bon, il faut donc qu'il ne soit plus ajouté
 Quand je remove react il faut faire un e restart  du create app
+
+
+un dossier par composant
+export default et nom unique
+
+
+en cas de problème supprimer le répertoire .bit

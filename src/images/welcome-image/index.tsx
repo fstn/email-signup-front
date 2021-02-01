@@ -1,6 +1,6 @@
 import React from "react";
 
-export function Welcome() {
+export function WelcomeImage() {
     return (<svg id="a581a3db-2a43-4a80-ac9d-86c7ddaa56ac" data-name="Layer 1"
                  xmlnsXlink="http://www.w3.org/1999/xlink" width="903.82216" height="748.21523"
                  viewBox="0 0 903.82216 748.21523">
@@ -128,3 +128,4 @@ export function Welcome() {
     </svg>)
 }
 
+export default WelcomeImage

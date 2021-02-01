@@ -29,8 +29,8 @@ export function useUser(userContext: UserContextType) {
             userContext.updateUserCtx((draft:any) => {
                 draft.token = undefined
             })
-            if (window.location.pathname !== "/login") {
-                //navigate("/login")s
+            if (window.location.pathname !== "/login-form-page") {
+                //navigate("/login-form-page")s
                 return Promise.reject(error);
             }
         }
@@ -53,8 +53,8 @@ export function useUser(userContext: UserContextType) {
             if (e?.response?.status === 401) {
                 await updateToken?.(undefined)
                 notification.error({
-                    message: <LocaleTitle tkey={"login.invalid"}/>,
-                    description: <LocaleHelp tkey={"login.invalid"}/>
+                    message: <LocaleTitle tkey={"login-form-page.invalid"}/>,
+                    description: <LocaleHelp tkey={"login-form-page.invalid"}/>
                 })
             } else {
                 notification.warn({

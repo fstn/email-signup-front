@@ -1,9 +1,9 @@
 import React from "react"
 import styled from "styled-components";
-import {Welcome} from "../../components/welcome";
-import {RegisterForm} from "../../forms/register";
 import {ImageOnSide} from "../../components/image-on-side";
-import {RegisterEmail} from "../../forms/register-email";
+import EmailImage from "../../images/email-image";
+import {ForgotPasswordForm} from "../../forms/forgot-password-form"
+
 
 const Style = styled.div`
  background: #F8F8F8;
@@ -14,12 +14,13 @@ const Style = styled.div`
  display: flex;
  align-items: center;
 `
-export function RegisterPage(props:{image?: JSX.Element}){
+
+export function ForgotPasswordPage(props: { image?: JSX.Element }) {
     return <Style>
-        <ImageOnSide image={props.image || <Welcome/>}>
-            <RegisterEmail/>
+        <ImageOnSide image={props.image || <EmailImage/>}>
+            <ForgotPasswordForm/>
         </ImageOnSide>
     </Style>
 }
 
-export default RegisterPage
+export default ForgotPasswordPage

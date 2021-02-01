@@ -34,14 +34,14 @@ function configureAxiosInstance(axiosInstance: AxiosInstance, token: string | un
             //TODO handleError("generic", error)
         }
         if ((401 === get(error, 'response.status'))) {
-            if (window.location.pathname !== "/login" && error.request.responseURL.indexOf("/me") === -1) {
-                navigate("/login")
+            if (window.location.pathname !== "/login-form-page" && error.request.responseURL.indexOf("/me") === -1) {
+                navigate("/login-form-page")
                 return Promise.reject(error);
             }
             updateToken(undefined)
             notification["warning"]({
                 message: "Session Expired",
-                description: "Your session has expired. Would you like to be redirected to the login page?",
+                description: "Your session has expired. Would you like to be redirected to the login-form-page page?",
                 onClose: () => {
                     localStorage.removeItem('user');
                 },
